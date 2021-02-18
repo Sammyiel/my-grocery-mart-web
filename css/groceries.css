@@ -1,0 +1,141 @@
+* {
+    font-family: Helvetica, Arial, Georgia, "Times New Roman", Garamond, cursive, Serif, sans-serif;
+}
+
+body {
+    background-color: cornsilk width: 80%;
+    /*padding-left: 10%;*/
+    /*padding-right: 10%;*/
+    /*    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: center;*/
+}
+
+main {
+    padding-left: 20%;
+    padding-right: 20%;
+    width: 60%;
+    justify-content: center;
+    font-size: 25px;
+}
+
+#contact-message {
+    font-family: monospace;
+    padding-bottom: 2%;
+}
+
+#tops {
+    padding-bottom: 2%;
+    height: 10%;
+}
+
+#nav-bar {
+    overflow: hidden;
+    background-color: rgba(221, 160, 221, .2);
+    padding: .8%;
+    font-size: 20px;
+}
+
+#nav-bar input {
+    padding: .2%;
+    float: right;
+    border: none;
+    font-family: Arial, Helvetica font-weight: bold;
+    font-size: 20px;
+}
+
+.contact-attribute {
+    width: 30%;
+}
+
+.rows {
+    padding-bottom: 5%;
+}
+
+.item2 {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#logo {}
+
+body {
+    background-image: url(images/icon.jpg);
+    background-repeat: repeat-x;
+    background-color: cornsilk;
+}
+
+
+#top-container span a{
+	float: right;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	padding-left: 1%;
+	color: rgba(210, 105, 30); 
+}
+
+@keyframes move {
+  from {right: 0px;}
+  to {left: 500px;}
+}
+
+
+
+/*#img_icon {
+	shape-rendering: round;
+	border-radius: 10%;
+}
+*/
+
+#cover_pic {
+    background-image:
+}
+
+.current {
+    color: rgba(210, 105, 30);
+}
+
+form {
+    padding-bottom: 5%;
+}
+
+nav {
+    /*display: block;*/
+    text-align: center;
+}
+
+nav a {
+    float: left;
+    text-decoration: none;
+    padding: .5%;
+    font-weight: bold;
+    color: rgb(31, 31, 3);
+    border-radius: 8%;
+    /*font-size: 50%;*/
+}
+
+nav a:hover,
+footer a:hover {
+    color: rgba(210, 105, 30);
+    animation: ease-in-out;
+    font-size: 102%;
+}
+
+footer a {
+    text-decoration: none;
+    padding: .5%;
+}
+
+footer {
+    padding: 2%;
+    background-color: moccasin;
+    text-align: center;
+    font-weight: bold;
+}
+
+article {
+    background-color: cornsilk;
+    padding-left: 10%;
+    padding-right: 10%;
+}
