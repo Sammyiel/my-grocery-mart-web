@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: cornsilk width: 80%;
+    background-color: cornsilk width 80%;
     /*padding-left: 10%;*/
     /*padding-right: 10%;*/
     /*    padding-left: 10%;
@@ -40,8 +40,6 @@ main {
     padding: .2%;
     float: right;
     border: none;
-    font-family: Arial, Helvetica font-weight: bold;
-    font-size: 20px;
 }
 
 .contact-attribute {
@@ -60,10 +58,16 @@ main {
 #logo {}
 
 body {
-    background-image: url(images/icon.jpg);
+    
     background-repeat: repeat-x;
     background-color: cornsilk;
 }
+
+/* .box{
+    background-image: url("/images/logo.png");
+    padding: 200px 100px;
+    margin: 100px;
+} */
 
 
 #top-container span a{
@@ -88,9 +92,7 @@ body {
 }
 */
 
-#cover_pic {
-    background-image:
-}
+
 
 .current {
     color: rgba(210, 105, 30);
@@ -139,3 +141,176 @@ article {
     padding-left: 10%;
     padding-right: 10%;
 }
+
+/* .banner-card{ */
+    /* border: 1px solid #676767; */
+    /* box-shadow: 0 0 20px rgba(0,0,0,0.4); */
+    /* padding: 20px; */
+    /* border-radius: 5px; */
+    /* text-align: center;
+    max-width: 397px;
+    height:100%;
+    
+} */
+
+.light-orange{
+    background-color: #ecb9a3;
+    box-shadow: 0 0 20px rgba(70, 66, 8, 0.4);
+}
+.light-blue{
+    background-color: #b5c9d4;
+    box-shadow: 0 0 20px rgba(70, 66, 8, 0.4);
+}
+
+.light-cream{
+    background-color: #ebe7ba;
+    box-shadow: 0 0 20px rgba(70, 66, 8, 0.4);
+}
+
+
+
+
+
+.recent-news{
+    background-color: cornsilk;
+ 
+ }
+ .recent-news .news-title {
+     text-align:center;
+     padding-top:30px;
+     padding-bottom:30px;
+     font-family: 'nimbus-sans-condensed', sans-serif;
+     font-size:55px;
+     font-weight:bold;
+     color: black;
+ }
+ .recent-news .row {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     margin-bottom: 100px;
+ }
+ .recent-news .ct-blog {
+     margin-bottom: 100px;
+ }
+ .ct-blog .inner {
+     background-color: #FFF;
+     padding: 60px;
+     transition: all 0.2s ease-in-out 0s;
+     cursor: pointer;
+     height: 500px;
+     width: 100%;
+     border-radius: 10px;
+ 
+ }
+ .ct-blog .inner:hover {
+     background-color: #e6e6e6;
+ }
+ .ct-blog .fauxcrop {
+     height: 180px;
+     overflow: hidden;
+ }
+ .ct-blog .fauxcrop img {
+     width: 100%;
+     height: 150px;
+ }
+ .ct-blog-content {
+     display: table;
+     padding: 30px 0 28px;
+ 
+ }
+ 
+ .ct-blog-content .ct-blog-date {
+     border-right: 1px solid #95A5A6;
+     display: table-cell;
+     font-family: "Lato", sans-serif;
+     padding: 0px 18px 0px 15px;
+     text-align: center;
+ }
+ .ct-blog-content .ct-blog-date span {
+     font-size: 16px;
+     color: rgb(24, 7, 175);
+     ;  
+     font-weight: 700;
+     display: block;
+     line-height: 1;
+ }
+ .ct-blog-content .ct-blog-date strong {
+     font-size: 25px;
+     color: rgb(24, 7, 175);
+ }
+ .ct-blog-content .ct-blog-header {
+     color: #000;
+     display: table-cell;
+     font-size: 22px;
+     font-weight: 700;
+     letter-spacing: -0.2px;
+     line-height: 1.1;
+     padding: 0 20px;
+     vertical-align: top;
+ }
+ 
+ .btn-news {
+     color: #333;
+     font-size: 14px;
+     font-weight: bold;
+     padding-bottom: 30px;
+     text-align: center;
+ }
+ .btn-news.btn-contests a {
+     color: #fff;
+     font-family: 'nimbus-sans-condensed', sans-serif;
+     font-size: 30px;
+     transition: all 0.2s ease-in-out 0s;
+ }
+ .btn-news.btn-contests a:hover {
+     color: #000;
+ }
+
+
+ 
+ 
+
+ @media screen and (min-width: 600px) {
+    #span-1 {
+      float: left;
+      width: 20%;
+      position: absolute;
+    }
+    #span-2{
+        float: center;
+        width: 20%;
+        position: absolute;
+    }
+    #span-3{
+        float: right;
+        width: 20%;
+        position: absolute;
+    }
+  }
+
+
+
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
